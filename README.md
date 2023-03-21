@@ -151,10 +151,7 @@ You can deploy this project using:
 
 👤 **Authors**
 
-Shafiu Ibn Yushawu & Martin Ossa
-- GitHub: [@shafiuyushawu](https://github.com/shafiuyushawu)
-
-- Twitter: [@shafiuyushawu](https://twitter.com/shafiuyushawu)
+Martin Ossa
 
 - GitHub: [@maov19](https://github.com/maov19)
 - Twitter: [@maov08](https://twitter.com/@maov08)
@@ -192,7 +189,7 @@ If you like this project, kindly follow me on GitHub 😊
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Much acknowledgment goes to the creaters of both the [TVMaze API](https://api.tvmaze.com) and [Involvement API](https://microverse.notion.site/Involvement-API-869e60b5ad104603aa6db59e08150270) for making such resourceful API available for us to practice.
+- To Microverse and my coding partners for their support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
