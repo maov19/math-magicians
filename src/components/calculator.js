@@ -1,33 +1,32 @@
-/* eslint-disable */
-import Zero from './zero.js'
+import Zero from './zero';
 
 function Calculator() {
-    return (
-      <div className="calculator-grid">
-        <div className="output">
-          <div className="current-operand">0</div>
-        </div>
-        <button>AC</button>
-        <button >+/-</button>
-        <button>%</button>
-        <button className="orange-button">+</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button className="orange-button">x</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button className="orange-button">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button className="orange-button">+</button>
-        <Zero />
-        <button>.</button>
-        <button className="orange-button">=</button>
+  return (
+    <div className="calculator-grid">
+      <div className="output">
+        <div className="current-operand">0</div>
       </div>
-    );
-  }
+      <button type="button">AC</button>
+      <button type="button">+/-</button>
+      <button type="button">%</button>
+      <button type="button" className="orange-button">+</button>
+      <button type="button">7</button>
+      <button type="button">8</button>
+      <button type="button">9</button>
+      <button type="button" className="orange-button">x</button>
+      <button type="button">4</button>
+      <button type="button">5</button>
+      <button type="button">6</button>
+      <button type="button" className="orange-button">-</button>
+      <button type="button">1</button>
+      <button type="button">2</button>
+      <button type="button">3</button>
+      <button type="button" className="orange-button">+</button>
+      <Zero />
+      <button type="button">.</button>
+      <button type="button" className="orange-button">=</button>
+    </div>
+  );
+}
 
-  export default Calculator;
+export default Calculator;
