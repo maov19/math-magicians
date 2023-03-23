@@ -40,7 +40,7 @@ function Quote() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div id="loading">Loading...</div>;
   }
 
   if (error) {
