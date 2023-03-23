@@ -1,3 +1,8 @@
+.main-container {
+  display: flex;
+  gap: 1rem;
+}
+
 .calculator-grid {
   display: grid;
   margin-top: 2rem;
@@ -33,4 +38,24 @@
   word-break: break-all;
   color: white;
   font-size: 2.5rem;
+}
+
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: solid grey;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
