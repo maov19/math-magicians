@@ -2,9 +2,9 @@ import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { render, fireEvent, waitForElementToBeRemoved } from '@testing-library/react';
 
-import Home from '../components/home';
-import Calculator from '../components/calculator';
-import Quote from '../components/quote';
+import Home from '../components/home.js';
+import Calculator from '../components/calculator.js';
+import Quote from '../components/quote.js';
 
 describe('Home', () => {
   it('should display "Welcome to our page!" and a paragraph when Home section is rendered', () => {
