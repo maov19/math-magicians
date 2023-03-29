@@ -1,14 +1,30 @@
+/* eslint-disable */
+
+import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 import './index.css';
 import Calculator from './components/calculator';
 import Quote from './components/quote';
 
-function App() {
+function Layout() {
   return (
-    <div className="main-container">
-      <Calculator />
-      <Quote />
-    </div>
-  );
+    <>
+      <Outlet />
+    </>
+  )
 }
 
-export default App;
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Layout />}>
+          <Route index element={<div>Home page</div>} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="quote" element={<Quote />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App
