@@ -1,9 +1,9 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
-import { render, fireEvent, waitForElementToBeRemoved  } from '@testing-library/react';
+import { render, fireEvent, waitForElementToBeRemoved } from '@testing-library/react';
 
-import Home from '../components/home'
-import Calculator from '../components/calculator'
+import Home from '../components/home';
+import Calculator from '../components/calculator';
 import Quote from '../components/quote';
 
 describe('Home', () => {
@@ -62,6 +62,3 @@ describe('Quotes', () => {
     expect(quoteElement.textContent).not.toBe('');
   });
 });
-
-
-
