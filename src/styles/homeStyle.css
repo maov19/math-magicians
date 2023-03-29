@@ -1,0 +1,25 @@
+.home {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.home h1 {
+  font-size: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.home p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.home a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.home a:hover {
+  color: #555;
+}
