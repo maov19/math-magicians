@@ -11,15 +11,15 @@ describe('calculate testing', () => {
     const result = calculate({ total: '2', next: '3', operation: '+' }, '=');
     expect(result).toEqual({ total: '5', next: null, operation: null });
   });
-})
+});
 describe('operate testing', () => {
-    it('should return a sum if "+" is assigned between two numbers', () => {
-      const result = operate(1, 5, '+');
-      expect(result).toEqual('6');
-    });
-  
-    it('should return a multiplication if "x" is assigned between two numbers', () => {
-        const result = operate(10, 3, 'x');
-        expect(result).toEqual('30');
-      });
-  })
+  it('should return a sum if "+" is assigned between two numbers', () => {
+    const result = operate(1, 5, '+');
+    expect(result).toEqual('6');
+  });
+
+  it('should return a multiplication if "x" is assigned between two numbers', () => {
+    const result = operate(10, 3, 'x');
+    expect(result).toEqual('30');
+  });
+});
