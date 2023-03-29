@@ -2,7 +2,7 @@ import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { render, fireEvent, waitForElementToBeRemoved } from '@testing-library/react';
 
-import Home from '../components/home.js';
+import Home from '../components/home'; // eslint-disable-line no-use-before-define
 import Calculator from '../components/calculator';
 import Quote from '../components/quote';
 
