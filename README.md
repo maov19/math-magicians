@@ -61,10 +61,6 @@ A single page app that displays a calculator and phrase generator app.
 - Phrase generator app
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
-Coming soon!
-
 - **GitHub Pages:**
 Coming soon!
 
