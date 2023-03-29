@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/quoteStyle.css';
 
 const category = 'funny';
 const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
@@ -50,7 +51,6 @@ function Quote() {
 
   return (
     <div id="quote-container">
-      <h1>Random funny quote:</h1>
       <h2 id="quote">{quote}</h2>
     </div>
   );
