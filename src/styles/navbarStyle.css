@@ -1,0 +1,40 @@
+.navbar {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 6rem;
+  padding: 0 1.25rem;
+}
+
+.navbar-title a {
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-left: 3rem;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.navbar-links li a:hover {
+  color: lightsalmon;
+  font-size: 2.5rem;
+  transform: scale(1.1);
+}
