@@ -152,6 +152,13 @@ Martin Ossa
 - GitHub: [@maov19](https://github.com/maov19)
 - Twitter: [@maov08](https://twitter.com/@maov08)
 
+
+👤 **Authors**
+
+Zewdie Habtie
+
+- GitHub: [ZewdieMc](https://github.com/ZewdieMc)
+- Twitter: [Zewdie](https://twitter.com/@HabtieZewdie)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
