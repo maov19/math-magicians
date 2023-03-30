@@ -1,8 +1,8 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
-import { render, fireEvent, waitForElementToBeRemoved } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 
-import Home from '../components/Home'; 
+import Home from '../components/Home';
 import Calculator from '../components/calculator';
 import Quote from '../components/quote';
 
@@ -55,7 +55,7 @@ describe('Quotes', () => {
   });
 
   test('should render a quote after loading', async () => {
-    const { getByText, queryByText } = render(<Quote />);
+    const { getByText } = render(<Quote />);
     expect(getByText('Loading...')).toBeInTheDocument();
   });
 });
